@@ -23,9 +23,9 @@ module.exports = ext.register("ext/themes/themes", {
     nodes   : [],
 
     defaultTheme : "ace/theme/monokai", //Default Theme
-    currTheme    : "",
+    currTheme    : "ace/theme/monokai",
     activeTheme  : null,
-    saved        : false,
+    saved        : true,
 
     register : function(themes){
         var _self = this;
