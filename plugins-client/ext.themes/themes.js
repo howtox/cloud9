@@ -203,9 +203,6 @@ module.exports = ext.register("ext/themes/themes", {
     init : function(){
         var _self = this;
 
-        _self.setThemedGUI('ace/theme/monokai');
-        _self.setThemedGUI('Monokai');
-
         this.stylesheet = apf.createStylesheet();
 
         this.nodes.push(
